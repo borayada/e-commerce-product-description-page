@@ -1,0 +1,133 @@
+<html lang="en">
+    <div class="scroll">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Product Details Page</title>
+    <link rel="stylesheet" href="style.css">
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/5.15.3/css/all.min.css">
+</head>
+
+<body>
+    <nav>
+        <div class="logo"><img src="./img/logo2.png" alt="Logo"></div>
+        <div class="topnav">
+            
+            <input type="text" placeholder="Search..">
+          </div>
+        
+        <ul>
+            <li><a href="#"></a></li>
+            <li><a href="#">birthday</a></li>
+            <li><a href="#">anniversary</a></li>
+            <li><a href="#">gift</a></li>
+            <li><a href="#">experiences</a></li>
+            <li><a href="#">occasions</a></li>
+            <li><a href="#">cakes</a></li>
+            <li><a href="#">flower</a></li>
+            <li><a href="#">combo and hampers</a></li>
+            <i class="fas fa-shopping-cart"></i>
+        </ul>
+    </nav>
+
+    <div class="flex-box">
+        <div class="left">
+            <div class="big-img">
+                <img src="https://natashaskitchen.com/wp-content/uploads/2020/07/Vanilla-Cake-SQ-500x375.jpg">
+            </div>
+            <div class="images">
+                <div class="small-img">
+                    <img src="https://www.recipetineats.com/wp-content/uploads/2020/08/My-best-Vanilla-Cake_9.jpg" onclick="showImg(this.src)">
+                </div>
+                <div class="small-img">
+                    <img src="https://www.livewellbakeoften.com/wp-content/uploads/2021/02/Vanilla-Cake-Recipe-9s.jpg">
+                </div>
+                <div class="small-img">
+                    <img src="https://www.seriouseats.com/thmb/aJRoRhN0yFe8LXFz1CGJ_pekjp0=/1500x0/filters:no_upscale():max_bytes(150000):strip_icc()/__opt__aboutcom__coeus__resources__content_migration__serious_eats__seriouseats.com__recipes__images__2017__05__20170412-vanilla-layer-cake-vicky-wasik-23-5da8c6517dcd43da91f048a75f6e8bc5.jpg">
+                </div>
+                <div class="small-img">
+                    <img src="https://i.ytimg.com/vi/dH6HDolxCxE/maxresdefault.jpg" onclick="showImg(this.src)">
+                </div>
+            </div>
+        </div>
+
+        <div class="right">
+            <div class="url">Home > Product > cakes</div>
+            <div class="pname">vanilla cake</div>
+            <div class="ratings">
+                <i class="fas fa-star"></i>
+                <i class="fas fa-star"></i>
+                <i class="fas fa-star"></i>
+                <i class="fas fa-star"></i>
+                <i class="fas fa-star-half-alt"></i>
+            </div>
+            <div class="price">₹499/kg</div>
+            <label for="cars">Choose a size:</label>
+
+<select name="price" id="cars">
+  <option value="volvo">0.5kg</option>
+  <option value="saab">1kg</option>
+  <option value="mercedes">2kg</option>
+  <option value="audi">3kg</option>
+</select>
+            
+              
+            <div class="quantity">
+                <p>Quantity :</p>
+                <input type="number" min="1" max="5" value="1">
+            </div><div class="size">
+            <p>product description</p></div>
+              <div>
+             <br>
+               <div class="g">white butter vanilla bean cake and layered with almond buttercream.
+                Moist Carrot Pecan Cake layered with cream cheese frosting and dusted with cinnamon.
+                Vanilla sponge cake glazed with sweet vanilla bourbon sauce, and layered with bourbon buttercream.
+
+
+                <ul>
+                    <li>weight=500g</li>
+                    <li>flavour=chocolate</li>
+                    <li>shape=round</li>
+                    <li>country=india</li>
+                  </ul>
+            </div>
+            </div>
+            <div class="size"><p>disclaimer</p></div>
+              
+             <br>
+               <div class="g">
+                <ul>
+                    <li>product can be different from the image shown above </li>
+                    <li>non -returnable</li>
+                    <li>delivery address cant be changed once order is placed</li>
+                  </ul>
+                
+               </div>
+            </div>
+            
+        </div>
+        <div class="btn-box">
+            <button class="cart-btn"><a href="payment.html">Add to Cart</a></button>
+            <button class="buy-btn"><a href="payment.html">Buy Now</a></button>
+        </div>
+        <div class="koi"> you may also like
+           <div class="hii"> <ul><li><a href="index2.html"> <img src="https://natashaskitchen.com/wp-content/uploads/2020/07/Vanilla-Cake-SQ-500x375.jpg" alt="Italian Trulli"> </a>
+            vanilla cake
+            <a href="index.html"> </li><li><img src="https://www.marthastewart.com/thmb/ge0p-PNC1Oxu4NJHnxMGotJT5S0=/1500x0/filters:no_upscale():max_bytes(150000):strip_icc()/chocolate-angel-food-cake-martha-bakes-se10-meringue-5884-v2-d113213_horiz-e78ab51cc14c4bfc9f530626f27cf8fe.jpgitokBv0ULu5H" alt="Italian Trulli"> </a>
+            chocolate cake</li></ul></div> 
+
+        </div>
+    </div>
+
+
+    <script>
+        let bigImg = document.querySelector('.big-img img');
+        function showImg(pic){
+            bigImg.src = pic;
+        }
+    </script>
+   
+</body>
+
+</html></div>
